@@ -1,7 +1,6 @@
 nums, texts, labels = [], [], []
 
 with open("kaggle-irony.csv", 'r') as f:
-    # lines = f.readlines()
     i = 0
     for line in f:
         if i == 0:
